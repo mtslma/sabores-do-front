@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "categoria": "Doces",
+    "nome": "Brigadeiro",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 colher de manteiga",
+      "3 colheres de chocolate em pó"
+    ],
+    "modoPreparo": "Misture todos os ingredientes e leve ao fogo baixo, mexendo até soltar do fundo da panela.",
+    "tempo": "20 minutos",
+    "imagem": "/images/brigadeiro.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "Doces",
+    "nome": "Pudim de Leite",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "2 latas de leite",
+      "3 ovos",
+      "1 xícara de açúcar (para a calda)"
+    ],
+    "modoPreparo": "Bata os ingredientes no liquidificador, faça a calda caramelizada e asse em banho-maria.",
+    "tempo": "1 hora",
+    "imagem": "/images/pudim-de-leite.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "Doces",
+    "nome": "Beijinho",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 colher de manteiga",
+      "100g de coco ralado"
+    ],
+    "modoPreparo": "Misture tudo em fogo baixo até soltar do fundo. Enrole e passe no coco.",
+    "tempo": "25 minutos",
+    "imagem": "/images/beijinho.jpg"
+  },
+  {
+    "id": 4,
+    "categoria": "Doces",
+    "nome": "Mousse de Maracujá",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1 copo de suco de maracujá concentrado"
+    ],
+    "modoPreparo": "Misture tudo no liquidificador e leve à geladeira por 2 horas.",
+    "tempo": "2h 10min",
+    "imagem": "/images/mousse-de-maracuja.jpg"
+  },
+  {
+    "id": 5,
+    "categoria": "Doces",
+    "nome": "Bolo de Cenoura",
+    "ingredientes": [
+      "2 cenouras",
+      "4 ovos",
+      "1 xícara de óleo",
+      "2 xícaras de açúcar",
+      "2 xícaras de farinha de trigo",
+      "1 colher de fermento"
+    ],
+    "modoPreparo": "Bata os líquidos no liquidificador, misture à parte seca e leve ao forno por 40 minutos.",
+    "tempo": "1 hora",
+    "imagem": "/images/bolo-de-cenoura.jpg"
+  },
+  {
+    "id": 6,
+    "categoria": "Salgados",
+    "nome": "Coxinha",
+    "ingredientes": [
+      "500g de frango desfiado",
+      "2 xícaras de farinha de trigo",
+      "1 colher de manteiga",
+      "Caldo de galinha"
+    ],
+    "modoPreparo": "Faça um refogado com frango. Cozinhe a massa e recheie, depois frite.",
+    "tempo": "1h 20min",
+    "imagem": "/images/coxinha.jpg"
+  },
+  {
+    "id": 7,
+    "categoria": "Salgados",
+    "nome": "Esfiha",
+    "ingredientes": [
+      "500g de farinha",
+      "300ml de leite",
+      "300g de carne moída",
+      "1 cebola",
+      "1 tomate"
+    ],
+    "modoPreparo": "Prepare a massa e deixe crescer. Recheie com carne temperada e asse.",
+    "tempo": "1h 30min",
+    "imagem": "/images/esfiha.jpg"
+  },
+  {
+    "id": 8,
+    "categoria": "Salgados",
+    "nome": "Empadão de Frango",
+    "ingredientes": [
+      "500g de peito de frango",
+      "1 massa podre",
+      "1 lata de milho",
+      "Requeijão"
+    ],
+    "modoPreparo": "Cozinhe o recheio, monte as camadas e asse por 40 minutos.",
+    "tempo": "1 hora",
+    "imagem": "/images/empadao-de-frango.jpg"
+  },
+  {
+    "id": 9,
+    "categoria": "Salgados",
+    "nome": "Pastel",
+    "ingredientes": [
+      "Massa de pastel",
+      "Queijo",
+      "Presunto",
+      "Carne moída",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": "Recheie a massa, feche bem e frite em óleo quente.",
+    "tempo": "30 minutos",
+    "imagem": "/images/pastel.jpg"
+  },
+  {
+    "id": 10,
+    "categoria": "Doces",
+    "nome": "Bolinho de Chuva",
+    "ingredientes": [
+      "2 xícaras de farinha",
+      "1 ovo",
+      "1/2 xícara de leite",
+      "1 colher de fermento",
+      "Açúcar e canela para polvilhar"
+    ],
+    "modoPreparo": "Misture tudo, frite em colheradas e polvilhe com açúcar e canela.",
+    "tempo": "30 minutos",
+    "imagem": "/images/bolinho-de-chuva.jpg"
+  },
+  {
+    "id": 11,
+    "categoria": "Massas",
+    "nome": "Macarrão à Bolonhesa",
+    "ingredientes": [
+      "500g de macarrão",
+      "300g de carne moída",
+      "1 molho de tomate",
+      "1 cebola"
+    ],
+    "modoPreparo": "Cozinhe o macarrão e faça o molho com carne. Misture tudo.",
+    "tempo": "40 minutos",
+    "imagem": "/images/macarrao-bolonhesa.jpg"
+  },
+  {
+    "id": 12,
+    "categoria": "Massas",
+    "nome": "Lasanha",
+    "ingredientes": [
+      "Massa para lasanha",
+      "Presunto",
+      "Queijo",
+      "Molho de tomate",
+      "Carne moída",
+      "Molho branco"
+    ],
+    "modoPreparo": "Monte as camadas e leve ao forno por 40 minutos.",
+    "tempo": "1h 10min",
+    "imagem": "/images/lasanha.jpg"
+  },
+  {
+    "id": 13,
+    "categoria": "Massas",
+    "nome": "Nhoque de Batata",
+    "ingredientes": [
+      "1kg de batata",
+      "2 xícaras de farinha",
+      "1 ovo",
+      "Sal"
+    ],
+    "modoPreparo": "Cozinhe as batatas, amasse, misture os ingredientes e cozinhe em água fervente.",
+    "tempo": "1 hora",
+    "imagem": "/images/nhoque-de-batata.jpg"
+  },
+  {
+    "id": 14,
+    "categoria": "Massas",
+    "nome": "Canelone",
+    "ingredientes": [
+      "Massa de canelone",
+      "Presunto",
+      "Queijo",
+      "Molho branco"
+    ],
+    "modoPreparo": "Recheie, enrole, cubra com molho e leve ao forno.",
+    "tempo": "50 minutos",
+    "imagem": "/images/canelone.jpg"
+  },
+  {
+    "id": 15,
+    "categoria": "Massas",
+    "nome": "Talharim com Frango",
+    "ingredientes": [
+      "500g de talharim",
+      "300g de frango em tiras",
+      "Creme de leite",
+      "Cebola",
+      "Alho"
+    ],
+    "modoPreparo": "Cozinhe o macarrão e prepare o frango com molho branco. Misture tudo.",
+    "tempo": "45 minutos",
+    "imagem": "/images/talharim-com-frango.jpg"
+  },
+  {
+    "id": 16,
+    "categoria": "Bebidas",
+    "nome": "Suco de Laranja",
+    "ingredientes": [
+      "4 laranjas",
+      "500ml de água",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": "Esprema as laranjas, misture com água e açúcar. Sirva gelado.",
+    "tempo": "10 minutos",
+    "imagem": "/images/suco-de-laranja.jpg"
+  },
+  {
+    "id": 17,
+    "categoria": "Bebidas",
+    "nome": "Vitamina de Banana",
+    "ingredientes": [
+      "2 bananas",
+      "1 copo de leite",
+      "1 colher de mel"
+    ],
+    "modoPreparo": "Bata tudo no liquidificador e sirva.",
+    "tempo": "5 minutos",
+    "imagem": "/images/vitamina-de-banana.jpg"
+  },
+  {
+    "id": 18,
+    "categoria": "Bebidas",
+    "nome": "Mojito Sem Álcool",
+    "ingredientes": [
+      "Hortelã",
+      "1 limão",
+      "Água com gás",
+      "Açúcar"
+    ],
+    "modoPreparo": "Macere o limão e hortelã, adicione o açúcar e complete com água com gás.",
+    "tempo": "10 minutos",
+    "imagem": "/images/mojito-sem-alcool.jpg"
+  },
+  {
+    "id": 19,
+    "categoria": "Bebidas",
+    "nome": "Chá Gelado de Hibisco",
+    "ingredientes": [
+      "2 colheres de hibisco",
+      "500ml de água",
+      "Mel ou adoçante"
+    ],
+    "modoPreparo": "Ferva a água com hibisco, coe, adoce e sirva gelado.",
+    "tempo": "20 minutos",
+    "imagem": "/images/cha-gelado-de-hibisco.jpg"
+  },
+  {
+    "id": 20,
+    "categoria": "Bebidas",
+    "nome": "Café Gelado",
+    "ingredientes": [
+      "1 xícara de café forte",
+      "Leite",
+      "Gelo",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": "Misture todos os ingredientes e sirva com gelo.",
+    "tempo": "10 minutos",
+    "imagem": "/images/cafe-gelado.jpg"
+  },
+  {
+    "id": 21,
+    "categoria": "Café",
+    "nome": "Pão de Queijo",
+    "ingredientes": [
+      "250g de polvilho",
+      "100ml de leite",
+      "1 ovo",
+      "100g de queijo ralado"
+    ],
+    "modoPreparo": "Misture tudo, faça bolinhas e asse em forno pré-aquecido por 30 minutos.",
+    "tempo": "40 minutos",
+    "imagem": "/images/pao-de-queijo.jpg"
+  },
+  {
+    "id": 22,
+    "categoria": "Café",
+    "nome": "Panqueca Americana",
+    "ingredientes": [
+      "1 xícara de farinha",
+      "1 ovo",
+      "1 xícara de leite",
+      "1 colher de fermento"
+    ],
+    "modoPreparo": "Misture os ingredientes e frite em frigideira antiaderente.",
+    "tempo": "20 minutos",
+    "imagem": "/images/panqueca-americana.jpg"
+  },
+  {
+    "id": 23,
+    "categoria": "Café",
+    "nome": "Omelete",
+    "ingredientes": [
+      "2 ovos",
+      "Sal",
+      "Queijo",
+      "Presunto"
+    ],
+    "modoPreparo": "Bata os ovos, adicione recheio e frite dos dois lados.",
+    "tempo": "15 minutos",
+    "imagem": "/images/omelete.jpg"
+  },
+  {
+    "id": 24,
+    "categoria": "Café",
+    "nome": "Tapioca",
+    "ingredientes": [
+      "Goma de tapioca",
+      "Recheio a gosto"
+    ],
+    "modoPreparo": "Espalhe a goma na frigideira e adicione recheio quando estiver firme.",
+    "tempo": "10 minutos",
+    "imagem": "/images/tapioca.jpg"
+  },
+  {
+    "id": 25,
+    "categoria": "Café",
+    "nome": "Cuscuz Nordestino",
+    "ingredientes": [
+      "1 xícara de flocão de milho",
+      "Sal",
+      "Água"
+    ],
+    "modoPreparo": "Hidrate o flocão, coloque na cuscuzeira e cozinhe por 10 minutos.",
+    "tempo": "20 minutos",
+    "imagem": "/images/cuscuz-nordestino.jpg"
+  }
+]
