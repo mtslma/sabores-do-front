@@ -70,64 +70,6 @@
   },
   {
     "id": 6,
-    "categoria": "Salgados",
-    "nome": "Coxinha",
-    "ingredientes": [
-      "500g de frango desfiado",
-      "2 xícaras de farinha de trigo",
-      "1 colher de manteiga",
-      "Caldo de galinha"
-    ],
-    "modoPreparo": "Faça um refogado com frango. Cozinhe a massa e recheie, depois frite.",
-    "tempo": "1h 20min",
-    "imagem": "/images/coxinha.jpg"
-  },
-  {
-    "id": 7,
-    "categoria": "Salgados",
-    "nome": "Esfiha",
-    "ingredientes": [
-      "500g de farinha",
-      "300ml de leite",
-      "300g de carne moída",
-      "1 cebola",
-      "1 tomate"
-    ],
-    "modoPreparo": "Prepare a massa e deixe crescer. Recheie com carne temperada e asse.",
-    "tempo": "1h 30min",
-    "imagem": "/images/esfiha.jpg"
-  },
-  {
-    "id": 8,
-    "categoria": "Salgados",
-    "nome": "Empadão de Frango",
-    "ingredientes": [
-      "500g de peito de frango",
-      "1 massa podre",
-      "1 lata de milho",
-      "Requeijão"
-    ],
-    "modoPreparo": "Cozinhe o recheio, monte as camadas e asse por 40 minutos.",
-    "tempo": "1 hora",
-    "imagem": "/images/empadao-de-frango.jpg"
-  },
-  {
-    "id": 9,
-    "categoria": "Salgados",
-    "nome": "Pastel",
-    "ingredientes": [
-      "Massa de pastel",
-      "Queijo",
-      "Presunto",
-      "Carne moída",
-      "Óleo para fritar"
-    ],
-    "modoPreparo": "Recheie a massa, feche bem e frite em óleo quente.",
-    "tempo": "30 minutos",
-    "imagem": "/images/pastel.jpg"
-  },
-  {
-    "id": 10,
     "categoria": "Doces",
     "nome": "Bolinho de Chuva",
     "ingredientes": [
@@ -142,7 +84,177 @@
     "imagem": "/images/bolinho-de-chuva.jpg"
   },
   {
+    "id": 7,
+    "categoria": "Salgados",
+    "nome": "Coxinha",
+    "ingredientes": [
+      "500g de frango desfiado",
+      "2 xícaras de farinha de trigo",
+      "1 colher de manteiga",
+      "Caldo de galinha"
+    ],
+    "modoPreparo": "Faça um refogado com frango. Cozinhe a massa e recheie, depois frite.",
+    "tempo": "1h 20min",
+    "imagem": "/images/coxinha.jpg"
+  },
+  {
+    "id": 8,
+    "categoria": "Salgados",
+    "nome": "Esfiha",
+    "ingredientes": [
+      "500g de farinha",
+      "300ml de leite",
+      "300g de carne moída",
+      "1 cebola",
+      "1 tomate"
+    ],
+    "modoPreparo": "Prepare a massa e deixe crescer. Recheie com carne temperada e asse.",
+    "tempo": "1h 30min",
+    "imagem": "/images/esfiha.jpg"
+  },
+  {
+    "id": 9,
+    "categoria": "Salgados",
+    "nome": "Empadão de Frango",
+    "ingredientes": [
+      "500g de peito de frango",
+      "1 massa podre",
+      "1 lata de milho",
+      "Requeijão"
+    ],
+    "modoPreparo": "Cozinhe o recheio, monte as camadas e asse por 40 minutos.",
+    "tempo": "1 hora",
+    "imagem": "/images/empadao-de-frango.jpg"
+  },
+  {
+    "id": 10,
+    "categoria": "Salgados",
+    "nome": "Pastel",
+    "ingredientes": [
+      "Massa de pastel",
+      "Queijo",
+      "Presunto",
+      "Carne moída",
+      "Óleo para fritar"
+    ],
+    "modoPreparo": "Recheie a massa, feche bem e frite em óleo quente.",
+    "tempo": "30 minutos",
+    "imagem": "/images/pastel.jpg"
+  },
+  {
     "id": 11,
+    "categoria": "Salgados",
+    "nome": "Bolinha de Queijo",
+    "ingredientes": [
+      "200g de queijo muçarela ralado",
+      "2 xícaras de leite",
+      "2 xícaras de farinha de trigo",
+      "1 colher de manteiga",
+      "Sal a gosto"
+    ],
+    "modoPreparo": "Cozinhe o leite com manteiga, adicione a farinha e mexa até soltar do fundo. Enrole com o queijo e frite até dourar.",
+    "tempo": "45 minutos",
+    "imagem": "/images/bolinha-de-queijo.jpg"
+  },
+  {
+    "id": 12,
+    "categoria": "Salgados",
+    "nome": "Empada de Palmito",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "150g de manteiga",
+      "1 gema",
+      "1 xícara de palmito picado",
+      "1 colher de amido de milho"
+    ],
+    "modoPreparo": "Faça uma massa com os ingredientes. Cozinhe o recheio de palmito e monte as empadinhas. Asse até dourar.",
+    "tempo": "1h 10min",
+    "imagem": "/images/empada-palmito.jpg"
+  },
+  {
+    "id": 13,
+    "categoria": "Café",
+    "nome": "Pão de Queijo",
+    "ingredientes": [
+      "250g de polvilho",
+      "100ml de leite",
+      "1 ovo",
+      "100g de queijo ralado"
+    ],
+    "modoPreparo": "Misture tudo, faça bolinhas e asse em forno pré-aquecido por 30 minutos.",
+    "tempo": "40 minutos",
+    "imagem": "/images/pao-de-queijo.jpg"
+  },
+  {
+    "id": 14,
+    "categoria": "Café",
+    "nome": "Panqueca Americana",
+    "ingredientes": [
+      "1 xícara de farinha",
+      "1 ovo",
+      "1 xícara de leite",
+      "1 colher de fermento"
+    ],
+    "modoPreparo": "Misture os ingredientes e frite em frigideira antiaderente.",
+    "tempo": "20 minutos",
+    "imagem": "/images/panqueca-americana.jpg"
+  },
+  {
+    "id": 15,
+    "categoria": "Café",
+    "nome": "Omelete",
+    "ingredientes": [
+      "2 ovos",
+      "Sal",
+      "Queijo",
+      "Presunto"
+    ],
+    "modoPreparo": "Bata os ovos, adicione recheio e frite dos dois lados.",
+    "tempo": "15 minutos",
+    "imagem": "/images/omelete.jpg"
+  },
+  {
+    "id": 16,
+    "categoria": "Café",
+    "nome": "Tapioca",
+    "ingredientes": [
+      "Goma de tapioca",
+      "Recheio a gosto"
+    ],
+    "modoPreparo": "Espalhe a goma na frigideira e adicione recheio quando estiver firme.",
+    "tempo": "10 minutos",
+    "imagem": "/images/tapioca.jpg"
+  },
+  {
+    "id": 17,
+    "categoria": "Café",
+    "nome": "Cuscuz Nordestino",
+    "ingredientes": [
+      "1 xícara de flocão de milho",
+      "Sal",
+      "Água"
+    ],
+    "modoPreparo": "Hidrate o flocão, coloque na cuscuzeira e cozinhe por 10 minutos.",
+    "tempo": "20 minutos",
+    "imagem": "/images/cuscuz-nordestino.jpg"
+  },
+  {
+    "id": 18,
+    "categoria": "Café",
+    "nome": "Ovos Benedict",
+    "ingredientes": [
+      "2 ovos",
+      "2 fatias de pão tipo English muffin ou pão artesanal",
+      "2 fatias de presunto ou bacon",
+      "1 colher de vinagre",
+      "Molho holandês (gema, manteiga derretida, limão e sal)"
+    ],
+    "modoPreparo": "Prepare o molho holandês em banho-maria batendo as gemas com manteiga e limão. Poache os ovos com água e vinagre. Torre o pão, adicione o presunto, o ovo e cubra com o molho.",
+    "tempo": "30 minUtos",
+    "imagem": "/images/ovos-benedict.jpg"
+  },
+  {
+    "id": 19,
     "categoria": "Massas",
     "nome": "Macarrão à Bolonhesa",
     "ingredientes": [
@@ -156,7 +268,7 @@
     "imagem": "/images/macarrao-bolonhesa.jpg"
   },
   {
-    "id": 12,
+    "id": 20,
     "categoria": "Massas",
     "nome": "Lasanha",
     "ingredientes": [
@@ -172,7 +284,7 @@
     "imagem": "/images/lasanha.jpg"
   },
   {
-    "id": 13,
+    "id": 21,
     "categoria": "Massas",
     "nome": "Nhoque de Batata",
     "ingredientes": [
@@ -186,7 +298,7 @@
     "imagem": "/images/nhoque-de-batata.jpg"
   },
   {
-    "id": 14,
+    "id": 22,
     "categoria": "Massas",
     "nome": "Canelone",
     "ingredientes": [
@@ -200,7 +312,7 @@
     "imagem": "/images/canelone.jpg"
   },
   {
-    "id": 15,
+    "id": 23,
     "categoria": "Massas",
     "nome": "Talharim com Frango",
     "ingredientes": [
@@ -215,7 +327,22 @@
     "imagem": "/images/talharim-com-frango.jpg"
   },
   {
-    "id": 16,
+    "id": 24,
+    "categoria": "Massas",
+    "nome": "Penne ao Alho e Óleo",
+    "ingredientes": [
+      "250g de penne",
+      "3 dentes de alho fatiados",
+      "3 colheres de sopa de azeite",
+      "Sal a gosto",
+      "Salsinha picada"
+    ],
+    "modoPreparo": "Cozinhe o penne al dente. Frite o alho no azeite até dourar, misture com o macarrão e finalize com salsinha.",
+    "tempo": "25 minutos",
+    "imagem": "/images/penne-alho-oleo.jpg"
+  },
+  {
+    "id": 25,
     "categoria": "Bebidas",
     "nome": "Suco de Laranja",
     "ingredientes": [
@@ -228,7 +355,7 @@
     "imagem": "/images/suco-de-laranja.jpg"
   },
   {
-    "id": 17,
+    "id": 26,
     "categoria": "Bebidas",
     "nome": "Vitamina de Banana",
     "ingredientes": [
@@ -241,7 +368,7 @@
     "imagem": "/images/vitamina-de-banana.jpg"
   },
   {
-    "id": 18,
+    "id": 27,
     "categoria": "Bebidas",
     "nome": "Mojito Sem Álcool",
     "ingredientes": [
@@ -255,7 +382,7 @@
     "imagem": "/images/mojito-sem-alcool.jpg"
   },
   {
-    "id": 19,
+    "id": 28,
     "categoria": "Bebidas",
     "nome": "Chá Gelado de Hibisco",
     "ingredientes": [
@@ -268,7 +395,7 @@
     "imagem": "/images/cha-gelado-de-hibisco.jpg"
   },
   {
-    "id": 20,
+    "id": 29,
     "categoria": "Bebidas",
     "nome": "Café Gelado",
     "ingredientes": [
@@ -282,70 +409,17 @@
     "imagem": "/images/cafe-gelado.jpg"
   },
   {
-    "id": 21,
-    "categoria": "Café",
-    "nome": "Pão de Queijo",
+    "id": 30,
+    "categoria": "Bebidas",
+    "nome": "Limonada",
     "ingredientes": [
-      "250g de polvilho",
-      "100ml de leite",
-      "1 ovo",
-      "100g de queijo ralado"
+      "3 limões",
+      "1 litro de água gelada",
+      "4 colheres de sopa de açúcar",
+      "Gelo a gosto"
     ],
-    "modoPreparo": "Misture tudo, faça bolinhas e asse em forno pré-aquecido por 30 minutos.",
-    "tempo": "40 minutos",
-    "imagem": "/images/pao-de-queijo.jpg"
-  },
-  {
-    "id": 22,
-    "categoria": "Café",
-    "nome": "Panqueca Americana",
-    "ingredientes": [
-      "1 xícara de farinha",
-      "1 ovo",
-      "1 xícara de leite",
-      "1 colher de fermento"
-    ],
-    "modoPreparo": "Misture os ingredientes e frite em frigideira antiaderente.",
-    "tempo": "20 minutos",
-    "imagem": "/images/panqueca-americana.jpg"
-  },
-  {
-    "id": 23,
-    "categoria": "Café",
-    "nome": "Omelete",
-    "ingredientes": [
-      "2 ovos",
-      "Sal",
-      "Queijo",
-      "Presunto"
-    ],
-    "modoPreparo": "Bata os ovos, adicione recheio e frite dos dois lados.",
-    "tempo": "15 minutos",
-    "imagem": "/images/omelete.jpg"
-  },
-  {
-    "id": 24,
-    "categoria": "Café",
-    "nome": "Tapioca",
-    "ingredientes": [
-      "Goma de tapioca",
-      "Recheio a gosto"
-    ],
-    "modoPreparo": "Espalhe a goma na frigideira e adicione recheio quando estiver firme.",
+    "modoPreparo": "Esprema os limões, misture com a água e o açúcar. Sirva com bastante gelo.",
     "tempo": "10 minutos",
-    "imagem": "/images/tapioca.jpg"
-  },
-  {
-    "id": 25,
-    "categoria": "Café",
-    "nome": "Cuscuz Nordestino",
-    "ingredientes": [
-      "1 xícara de flocão de milho",
-      "Sal",
-      "Água"
-    ],
-    "modoPreparo": "Hidrate o flocão, coloque na cuscuzeira e cozinhe por 10 minutos.",
-    "tempo": "20 minutos",
-    "imagem": "/images/cuscuz-nordestino.jpg"
+    "imagem": "/images/limonada.jpg"
   }
 ]

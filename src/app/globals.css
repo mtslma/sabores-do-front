@@ -1,2 +1,4 @@
 @import "tailwindcss";
 
+/* Isso aqui faz o tema claro e escuro funcionar :) */
+@custom-variant dark (&:where(.dark, .dark *));
