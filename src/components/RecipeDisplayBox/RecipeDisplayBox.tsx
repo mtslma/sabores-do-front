@@ -18,7 +18,7 @@ export default function RecipeDisplayBox(props: { idReceita: string; imagem: str
 
     return (
         // ARRUMAR O LINK DEPOIS - Já arrumei, remover o comentário depois ;)
-        <Link href={`/receita/${idReceita}`} className="group flex flex-row md:max-w-96 items-center gap-4 border-2 border-emerald-600 dark:border-emerald-400 rounded-xl p-4 max-w-full bg-gray-100 hover:bg-gray-300 dark:bg-slate-800 dark:hover:bg-gray-950">
+        <Link href={`/receita/${idReceita}`} className="group flex flex-row md:max-w-96 min-h-48 max-h-48 overflow-hidden items-center gap-4 border-2 border-emerald-600 dark:border-emerald-400 rounded-xl p-4 max-w-full bg-gray-100 hover:bg-gray-300 dark:bg-slate-800 dark:hover:bg-gray-950">
             {/* Imagem */}
             <div className="w-24 h-24 flex-shrink-0 overflow-hidden rounded-lg bg-emerald-600">
                 <Image src={imagem} alt={`Imagem de ${nome}`} width={96} height={96} className="w-full h-full object-cover" />

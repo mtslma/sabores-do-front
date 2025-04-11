@@ -43,7 +43,7 @@ export default function Sidebar({ isOpen }: { isOpen: boolean }) {
 export function LinkSidebar(props: { href: string; icon: string; children: React.ReactNode }) {
     const { href, icon, children } = props;
     return (
-        <Link className="flex flex-row items-center justify-start gap-4 px-4 py-1.5 border-2 dark:hover:bg-gray-700 dark:border-gray-300 rounded-xl hover:bg-gray-100 transition-colors" href={href}>
+        <Link className="flex flex-row items-center justify-start gap-4 px-4 py-1.5 border-2 dark:hover:bg-gray-500 dark:border-gray-300 rounded-xl hover:bg-gray-300 transition-colors" href={href}>
             <i className={`text-2xl fa-solid fa-${icon} bg-gradient-to-tr from-emerald-700 dark:from-emerald-300 to-emerald-500 text-transparent bg-clip-text`} />
             <p className="text-xl">{children}</p>
         </Link>

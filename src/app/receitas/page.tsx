@@ -1,7 +1,7 @@
 "use client";
-import { useEffect, useState } from "react";
 import PageTitle from "@/components/PageTitle/PageTitle";
 import RecipeDisplayBox from "@/components/RecipeDisplayBox/RecipeDisplayBox";
+import { useEffect, useState } from "react";
 
 // Cada receita segue essa estrutura
 interface propReceitas {

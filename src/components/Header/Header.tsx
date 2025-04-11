@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import Sidebar from "../Sidebar/Sidebar";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import Sidebar from "../NavigationBar/NavigationBar";
 
 export default function Header() {
     // Hooks para alterar o menu
@@ -12,14 +12,33 @@ export default function Header() {
         setMenuOpen(!menuOpen);
     }
 
-    // Lógica para alterar o tema e ícone do botão de tema
-    const [darkModeActive, setDarkModeActive] = useState(false);
+    // Hooks para alterar o tema usando o localStorage e botão
+    const [lightModeActive, setLightModeActive] = useState(false);
 
     const toggleTheme = () => {
-        // Aplicando a classe dark para todo o html -- https://tailwindcss.com/docs/dark-mode
-        document.documentElement.classList.toggle("dark");
-        setDarkModeActive(!darkModeActive);
+        const isLight = !lightModeActive;
+        const newTheme = isLight ? "light" : "dark";
+
+        // Atualizando o tema
+        document.documentElement.classList.toggle("dark", newTheme === "dark");
+        setLightModeActive(isLight);
+
+        // Salvando no localStorage
+        localStorage.setItem("lightModeActive", isLight.toString());
+        localStorage.setItem("theme", newTheme);
     };
+
+    // Atualiza o tema com base no localStorage ao carregar
+    useEffect(() => {
+        function loadTheme() {
+            if (typeof window !== undefined) {
+                const savedTheme = localStorage.getItem("theme") || "light";
+                document.documentElement.classList.toggle("dark", savedTheme === "dark");
+                setLightModeActive(savedTheme === "light");
+            }
+        }
+        loadTheme();
+    }, []);
 
     return (
         <header className="flex items-center justify-between border-b-2 p-4 z-10 shadow-sm bg-white dark:bg-gray-700">
@@ -35,7 +54,7 @@ export default function Header() {
             <div className="flex justify-between gap-8">
                 {/* Botão de tema */}
                 <button onClick={toggleTheme} className="font-bold text-2xl hover:cursor-pointer">
-                    <i className={`fa-solid fa-${darkModeActive ? "sun" : "moon"}`} />
+                    <i className={`fa-solid fa-${lightModeActive ? "moon" : "sun"}`} />
                 </button>
 
                 <Sidebar isOpen={menuOpen} />
