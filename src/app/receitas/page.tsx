@@ -59,7 +59,7 @@ export default function Receitas() {
                 {receitasFiltradas.map((receita) => (
                     // Exibindo caixa com detalhes da receita
                     <li key={receita.id}>
-                        <RecipeDisplayBox idReceita={receita.id} imagem={receita.imagem} nome={receita.nome} categoria={receita.categoria} tempo={receita.tempo} ingredientes={receita.ingredientes}></RecipeDisplayBox>
+                        <RecipeDisplayBox idReceita={receita.id} imagem={receita.imagem} nome={receita.nome} categoria={receita.categoria} tempo={receita.tempo} ingredientes={receita.ingredientes} loading={false}></RecipeDisplayBox>
                     </li>
                 ))}
             </ul>

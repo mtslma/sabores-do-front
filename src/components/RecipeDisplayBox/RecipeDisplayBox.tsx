@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function RecipeDisplayBox(props: { idReceita: string; imagem: string; nome: string; categoria: string; tempo: string; ingredientes: [] }) {
+export default function RecipeDisplayBox(props: { idReceita: string; imagem: string; nome: string; categoria: string; tempo: string; ingredientes: []; loading: boolean }) {
     const { idReceita, imagem, nome, categoria, tempo, ingredientes } = props;
 
     // Mapeando categorias para definir as cores que apareceram

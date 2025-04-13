@@ -43,14 +43,13 @@ export default function Receita() {
                 const receitaData = data.find((d: { id: string }) => d.id == id);
 
                 if (!receitaData) {
-                    throw new Error("Receita não encontrada...")
+                    throw new Error("Receita não encontrada...");
                 }
 
                 setReceita(receitaData);
-            }
-            catch (error) {
+            } catch (error) {
                 // Definindo a mensagem de erro
-                setErro((error instanceof Error ? error.message : "Erro desconhecido"));
+                setErro(error instanceof Error ? error.message : "Erro desconhecido");
             }
         }
         // Se passar um ID ele retorna
@@ -65,8 +64,10 @@ export default function Receita() {
             <main className="flex flex-col justify-start items-center gap-8 h-screen md:h-screen">
                 <p className="text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-700 to-emerald-500">4 0 4</p>
                 <PageTitle>Ops! Não chegamos lá ainda...</PageTitle>
-                <p className="text-xl text-center text-red-400 font-bold">{erro}</p>
-                <PageLink href={"/receitas"}><i className="fa-solid fa-lemon text-amber-300" /> Voltar para receitas</PageLink>
+                <p className="text-xl text-center font-bold">{erro}</p>
+                <PageLink href={"/receitas"}>
+                    <i className="fa-solid fa-lemon text-amber-300" /> Voltar para receitas
+                </PageLink>
             </main>
         );
     }
@@ -112,7 +113,6 @@ export default function Receita() {
                                 {receita?.tempo}
                             </div>
                         </div>
-
                     </div>
 
                     {/* Mapeando os ingredientes */}
