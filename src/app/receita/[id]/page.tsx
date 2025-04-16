@@ -52,7 +52,7 @@ export default function Receita() {
                 setErro(error instanceof Error ? error.message : "Erro desconhecido");
             }
         }
-        // Se passar um ID ele retorna
+        // Ele retorna caso receba um ID nos parâmetros
         if (id) {
             BuscarReceita();
         }
