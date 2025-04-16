@@ -85,16 +85,16 @@ export default function Receita() {
 
         return (
             <main className="flex flex-col justify-start items-center gap-6 md:gap-6">
-                <div className="min-w-2/3 max-w-2/3 flex-nowrap flex items-center justify-center flex-row gap-4">
+                <div className="w-full md:max-w-2/3 flex-nowrap flex items-center justify-center flex-row gap-4">
                     <PageLink href={"/receitas"}>
-                        <i className="fa-solid fa-arrow-left" />
+                        <i className="fa-solid fa-arrow-left font-bold" />
                     </PageLink>
                     <PageTitle>Detalhes receita #{id}</PageTitle>
                 </div>
 
                 <TextBox>
                     {/* Nome da receita */}
-                    <h1 className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">{receita?.nome}</h1>
+                    <h1 className="text-3xl font-bold text-emerald-600 dark:text-emerald-400">{receita?.nome}</h1>
                     <div className="flex flex-col gap-2">
                         {/* Imagem */}
                         <div className="flex items-center gap-4">
