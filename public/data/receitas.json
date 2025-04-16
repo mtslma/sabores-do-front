@@ -8,7 +8,7 @@
       "1 colher de manteiga",
       "3 colheres de chocolate em pó"
     ],
-    "modoPreparo": "Misture todos os ingredientes e leve ao fogo baixo, mexendo até soltar do fundo da panela.",
+    "modoPreparo": "Em uma panela, misture todos os ingredientes e leve ao fogo baixo, mexendo sem parar até que a mistura desgrude completamente do fundo da panela.",
     "tempo": "20 minutos",
     "imagem": "/images/brigadeiro.jpg"
   },
@@ -22,7 +22,7 @@
       "3 ovos",
       "1 xícara de açúcar (para a calda)"
     ],
-    "modoPreparo": "Bata os ingredientes no liquidificador, faça a calda caramelizada e asse em banho-maria.",
+  "modoPreparo": "No liquidificador, bata o leite condensado, o leite e os ovos até obter uma mistura homogênea. Prepare uma calda caramelizando o açúcar em uma forma. Despeje a mistura sobre a calda e asse em banho-maria no forno preaquecido por cerca de 1 hora.",
     "tempo": "1 hora",
     "imagem": "/images/pudim-de-leite.jpg"
   },
@@ -35,7 +35,7 @@
       "1 colher de manteiga",
       "100g de coco ralado"
     ],
-    "modoPreparo": "Misture tudo em fogo baixo até soltar do fundo. Enrole e passe no coco.",
+    "modoPreparo": "Coloque o leite condensado, a manteiga e o coco ralado em uma panela. Cozinhe em fogo baixo, mexendo sempre, até que a mistura comece a desgrudar do fundo da panela. Deixe esfriar, enrole os docinhos e passe no coco ralado para finalizar.",
     "tempo": "25 minutos",
     "imagem": "/images/beijinho.jpg"
   },
@@ -48,7 +48,7 @@
       "1 lata de creme de leite",
       "1 copo de suco de maracujá concentrado"
     ],
-    "modoPreparo": "Misture tudo no liquidificador e leve à geladeira por 2 horas.",
+  "modoPreparo": "Bata o leite condensado, o creme de leite e o suco de maracujá no liquidificador até obter um creme uniforme. Coloque em uma travessa ou em taças individuais e leve à geladeira por pelo menos 2 horas antes de servir.",
     "tempo": "2h 10min",
     "imagem": "/images/mousse-de-maracuja.jpg"
   },
@@ -64,7 +64,7 @@
       "2 xícaras de farinha de trigo",
       "1 colher de fermento"
     ],
-    "modoPreparo": "Bata os líquidos no liquidificador, misture à parte seca e leve ao forno por 40 minutos.",
+  "modoPreparo": "Bata no liquidificador as cenouras picadas, os ovos e o óleo até formar um creme liso. Em uma tigela, misture o açúcar, a farinha e o fermento, depois adicione o creme batido e misture bem. Despeje em uma forma untada e asse em forno preaquecido a 180°C por cerca de 40 minutos.",
     "tempo": "1 hora",
     "imagem": "/images/bolo-de-cenoura.jpg"
   },
@@ -79,7 +79,7 @@
       "1 colher de fermento",
       "Açúcar e canela para polvilhar"
     ],
-    "modoPreparo": "Misture tudo, frite em colheradas e polvilhe com açúcar e canela.",
+    "modoPreparo": "Misture bem todos os ingredientes até obter uma massa homogênea. Com o auxílio de duas colheres, modele os bolinhos e frite em óleo quente até dourarem. Escorra em papel-toalha e polvilhe com açúcar e canela a gosto.",
     "tempo": "30 minutos",
     "imagem": "/images/bolinho-de-chuva.jpg"
   },
@@ -93,7 +93,7 @@
       "1 colher de manteiga",
       "Caldo de galinha"
     ],
-    "modoPreparo": "Faça um refogado com frango. Cozinhe a massa e recheie, depois frite.",
+    "modoPreparo": "Refogue o frango desfiado com temperos a gosto. Para a massa, ferva o caldo de galinha com a manteiga e adicione a farinha de trigo, mexendo até formar uma massa que desgrude da panela. Deixe esfriar, recheie com o frango, modele em formato de coxinha e frite em óleo quente até dourar.",
     "tempo": "1h 20min",
     "imagem": "/images/coxinha.jpg"
   },
@@ -108,7 +108,7 @@
       "1 cebola",
       "1 tomate"
     ],
-    "modoPreparo": "Prepare a massa e deixe crescer. Recheie com carne temperada e asse.",
+    "modoPreparo": "Misture os ingredientes da massa e deixe crescer até dobrar de volume. Enquanto isso, tempere a carne com cebola, tomate e temperos a gosto. Modele a massa em formato de esfiha, recheie e asse em forno preaquecido até dourar.",
     "tempo": "1h 30min",
     "imagem": "/images/esfiha.jpg"
   },
@@ -122,7 +122,7 @@
       "1 lata de milho",
       "Requeijão"
     ],
-    "modoPreparo": "Cozinhe o recheio, monte as camadas e asse por 40 minutos.",
+    "modoPreparo": "Cozinhe o peito de frango, desfie e misture com milho e requeijão. Forre uma forma com metade da massa podre, adicione o recheio e cubra com o restante da massa. Leve ao forno preaquecido por aproximadamente 40 minutos ou até dourar.",
     "tempo": "1 hora",
     "imagem": "/images/empadao-de-frango.jpg"
   },
@@ -137,7 +137,7 @@
       "Carne moída",
       "Óleo para fritar"
     ],
-    "modoPreparo": "Recheie a massa, feche bem e frite em óleo quente.",
+    "modoPreparo": "Corte a massa em retângulos, adicione o recheio de sua preferência, feche bem as bordas com um garfo e frite em óleo quente até ficarem dourados e crocantes.",
     "tempo": "30 minutos",
     "imagem": "/images/pastel.jpg"
   },
@@ -152,7 +152,7 @@
       "1 colher de manteiga",
       "Sal a gosto"
     ],
-    "modoPreparo": "Cozinhe o leite com manteiga, adicione a farinha e mexa até soltar do fundo. Enrole com o queijo e frite até dourar.",
+    "modoPreparo": "Leve o leite, a manteiga e uma pitada de sal ao fogo até ferver. Adicione a farinha de trigo de uma vez e mexa até formar uma     massa firme e desgrudar do fundo da panela. Deixe esfriar, recheie com queijo, modele as bolinhas e frite até dourarem.",
     "tempo": "45 minutos",
     "imagem": "/images/bolinha-de-queijo.jpg"
   },
@@ -167,7 +167,7 @@
       "1 xícara de palmito picado",
       "1 colher de amido de milho"
     ],
-    "modoPreparo": "Faça uma massa com os ingredientes. Cozinhe o recheio de palmito e monte as empadinhas. Asse até dourar.",
+    "modoPreparo": "Misture a farinha, a manteiga e a gema até obter uma massa homogênea. Cozinhe o palmito com o amido e temperos até formar um recheio cremoso. Forre forminhas com a massa, adicione o recheio e cubra com mais massa. Asse até ficarem douradas.",
     "tempo": "1h 10min",
     "imagem": "/images/empada-palmito.jpg"
   },
@@ -181,7 +181,7 @@
       "1 ovo",
       "100g de queijo ralado"
     ],
-    "modoPreparo": "Misture tudo, faça bolinhas e asse em forno pré-aquecido por 30 minutos.",
+    "modoPreparo": "Misture todos os ingredientes até obter uma massa uniforme. Modele bolinhas com as mãos e leve ao forno preaquecido a 180°C por cerca de 30 minutos ou até dourarem levemente.",
     "tempo": "40 minutos",
     "imagem": "/images/pao-de-queijo.jpg"
   },
@@ -195,7 +195,7 @@
       "1 xícara de leite",
       "1 colher de fermento"
     ],
-    "modoPreparo": "Misture os ingredientes e frite em frigideira antiaderente.",
+    "modoPreparo": "Misture todos os ingredientes com um fouet até formar uma massa lisa. Aqueça uma frigideira antiaderente e despeje porções da massa, cozinhando até surgirem bolhas. Vire para dourar do outro lado e sirva.",
     "tempo": "20 minutos",
     "imagem": "/images/panqueca-americana.jpg"
   },
@@ -209,7 +209,7 @@
       "Queijo",
       "Presunto"
     ],
-    "modoPreparo": "Bata os ovos, adicione recheio e frite dos dois lados.",
+    "modoPreparo": "Bata os ovos com uma pitada de sal. Aqueça uma frigideira, adicione os ovos batidos e, quando começarem a firmar, acrescente o queijo e o presunto. Dobre ao meio e deixe dourar dos dois lados.",
     "tempo": "15 minutos",
     "imagem": "/images/omelete.jpg"
   },

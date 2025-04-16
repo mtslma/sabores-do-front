@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Sidebar from "../NavigationBar/NavigationBar";
+import NavigationBar from "../NavigationBar/NavigationBar";
 
 export default function Header() {
     // Hooks para alterar o menu
@@ -24,7 +24,6 @@ export default function Header() {
         setLightModeActive(isLight);
 
         // Salvando no localStorage
-        localStorage.setItem("lightModeActive", isLight.toString());
         localStorage.setItem("theme", newTheme);
     };
 
@@ -41,7 +40,7 @@ export default function Header() {
     }, []);
 
     return (
-        <header className="flex items-center justify-between border-b-2 p-4 z-10 shadow-sm bg-white dark:bg-gray-700">
+        <header className="flex items-center justify-between border-b-2 p-4 z-10 shadow-sm bg-white dark:bg-gray-950">
             {/* Botão da sidebar */}
             <button onClick={toggleMenu} className="text-2xl focus:outline-none md:hidden">
                 <i className={`fa-solid ${menuOpen ? "fa-xmark" : "fa-bars"}`} />
@@ -57,7 +56,7 @@ export default function Header() {
                     <i className={`fa-solid fa-${lightModeActive ? "moon" : "sun"}`} />
                 </button>
 
-                <Sidebar isOpen={menuOpen} />
+                <NavigationBar isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
             </div>
         </header>
     );
